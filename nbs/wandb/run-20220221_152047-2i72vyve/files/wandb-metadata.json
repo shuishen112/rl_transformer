@@ -1,0 +1,34 @@
+{
+    "os": "Linux-4.18.0-240.15.1.el8_3.x86_64-x86_64-with-glibc2.28",
+    "python": "3.9.5",
+    "heartbeatAt": "2022-02-21T14:20:56.909333",
+    "startedAt": "2022-02-21T14:20:47.624141",
+    "docker": null,
+    "gpu": "A100-PCIE-40GB",
+    "gpu_count": 1,
+    "cpu_count": 96,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"865bd28f-c7c0-4ac2-8d04-8e43689c3719\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=/tmp/tmp-507775k0zDID8tSkke.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/lvwerra/trl.git",
+        "commit": "5410be61b4eaf832d8bf3e705da49e23b78b50f7"
+    },
+    "email": null,
+    "root": "/maps/projects/futhark1/data/wzm289/code/trl",
+    "host": "futharkhpa01fl.unicph.domain",
+    "username": "wzm289",
+    "executable": "/home/wzm289/miniconda3/bin/python"
+}
